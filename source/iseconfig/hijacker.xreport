@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<report-views version="2.0" >
+ <header>
+  <ImplementationReportsDirectory>D:/Program/SourceTree/FPGAdisparity/DisPrj/source\</ImplementationReportsDirectory>
+  <ModuleName>VmodCAM_Ref</ModuleName>
+  <DateModified>2014-09-10T15:05:10</DateModified>
+  <SavedFilePath>D:/Program/SourceTree/FPGAdisparity/DisPrj/source/iseconfig/hijacker.xreport</SavedFilePath>
+  <DateInitialized>2014-09-10T15:05:10</DateInitialized>
+  <EnableMessageFiltering>false</EnableMessageFiltering>
+  <SummaryTimeStamp>2014-09-10T15:04:59</SummaryTimeStamp>
+ </header>
+</report-views>

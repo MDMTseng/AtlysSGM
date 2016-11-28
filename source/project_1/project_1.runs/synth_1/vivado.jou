@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Wed Sep 17 11:02:55 2014
+# Process ID: 146060
+# Log file: D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/project_1/project_1.runs/synth_1/VmodCAM_Ref.rds
+# Journal file: D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source VmodCAM_Ref.tcl

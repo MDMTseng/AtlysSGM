@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Mar 21 13:51:25 2015
+# Process ID: 66052
+# Log file: D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/planAhead_run_5/planAhead.log
+# Journal file: D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/pa.fromNcd.tcl

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="9">
+	<Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7k70tfbg676-1" LaunchPart="xc7k70tfbg676-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" LaunchTime="1410976972">
+		<File Type="RDS-UTIL" Name="VmodCAM_Ref_utilization_synth.rpt"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+		<File Type="RDS-UTIL-PB" Name="VmodCAM_Ref_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="VmodCAM_Ref.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="VmodCAM_Ref_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="VmodCAM_Ref_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="VmodCAM_Ref.tcl"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+		<File Type="RDS-RDS" Name="VmodCAM_Ref.rds"/>
+	</Run>
+	<Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xc7k70tfbg676-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current"/>
+</Runs>
+

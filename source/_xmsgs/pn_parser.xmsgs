@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/AdderTree.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/ArrayEleWidthReduce.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/ArraySub.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/CamCtl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/CensusVec.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/ColorTranse.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/ColorTranse2d.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/FBCtl.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/PixCoordinator.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/PixDiff.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/SAD_Mod.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/SGMCore.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/SPI_3BGroup_warpClkDomain.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/SPI_slave.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/ScanLWindow_blkRAM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/ShiftReg_blkRAM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/ShiftReg_s.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/ShiftReg_window.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/ShiftRegister.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/SigPosEdge.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/SysCon.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/VmodCAM_Ref.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/block_matching_disparity.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/floatAdd.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/frameBuff.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/getMaxIdx.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/getMinIdx.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/hijacker.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/iodrp_controller.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/iodrp_mcb_controller.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/mcb_raw_wrapper.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/mcb_soft_calibration.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/mcb_soft_calibration_top.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/memc3_wrapper.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/midianFilter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/pixInterpolation.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/DVITransmitter.vhd&quot; into library digilent</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/InputSync.vhd&quot; into library digilent</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/LocalRst.vhd&quot; into library digilent</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/SerializerN_1.vhd&quot; into library digilent</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/TMDSEncoder.vhd&quot; into library digilent</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/TWICtl.vhd&quot; into library digilent</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/Video.vhd&quot; into library digilent</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/VideoTimingCtl.vhd&quot; into library digilent</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/xMatching.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

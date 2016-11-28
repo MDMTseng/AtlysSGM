@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="30">
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PPRDIR/../hijacker.ucf"/>
+    <File Path="$PPRDIR/../atlys_vmodcam.ucf"/>
+    <File Path="$PPRDIR/../timing.ucf"/>
+    <File Path="$PPRDIR/../atlys.ucf"/>
+    <Config>
+      <Option Name="ConstrsType" Val="UCF"/>
+    </Config>
+  </FileSet>
+</DARoots>

@@ -1,0 +1,15 @@
+MODEL "VmodCAM_Ref" incremental_synthesis = yes;
+MODEL "hijacker" incremental_synthesis = yes;
+MODEL "ShiftReg_window" incremental_synthesis = yes;
+MODEL "PixCoordinator" incremental_synthesis = yes;
+MODEL "SysCon" incremental_synthesis = yes;
+MODEL "VideoTimingCtl" incremental_synthesis = yes;
+MODEL "FBCtl" incremental_synthesis = yes;
+MODEL "InputSync" incremental_synthesis = yes;
+MODEL "DVITransmitter" incremental_synthesis = yes;
+MODEL "memc3_wrapper" incremental_synthesis = yes;
+MODEL "mcb_raw_wrapper" incremental_synthesis = yes;
+MODEL "mcb_soft_calibration_top" incremental_synthesis = yes;
+MODEL "mcb_soft_calibration" incremental_synthesis = yes;
+MODEL "iodrp_controller" incremental_synthesis = yes;
+MODEL "iodrp_mcb_controller" incremental_synthesis = yes;

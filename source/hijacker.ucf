@@ -1,0 +1,4 @@
+
+#Created by Constraints Editor (xc6slx45-csg324-3) - 2015/02/19
+NET "sck" TNM_NET = sck;
+TIMESPEC TS_sck = PERIOD "sck" 30 MHz HIGH 50%;

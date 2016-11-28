@@ -1,0 +1,61 @@
+#! /c/iverilog/bin/vvp
+:ivl_version "0.9.7 " "(v0_9_7)";
+:vpi_time_precision - 10;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_007EA110 .scope module, "motion_est_tb" "motion_est_tb" 2 5;
+ .timescale -9 -10;
+v007E4780_0 .var "A", 5 0;
+v007E45C8_0 .var "B", 5 0;
+v007EDFE8_0 .var "C", 5 0;
+v007EE040_0 .net "SSS", 11 0, L_0085D058; 1 drivers
+v007EE098_0 .net "SSS2", 5 0, L_0085D0E8; 1 drivers
+v007EE0F0_0 .net *"_s1", 11 0, L_007E5510; 1 drivers
+v007E53B0_0 .net *"_s2", 11 0, L_007E5568; 1 drivers
+v007E5408_0 .net *"_s5", 5 0, C4<000000>; 1 drivers
+v007E5460_0 .var/i "cc", 31 0;
+v007E54B8_0 .var "clk", 0 0;
+E_007EF770 .event posedge, v007E54B8_0;
+L_007E5510 .arith/mult 12, v007E4780_0, v007E45C8_0;
+L_007E5568 .concat [ 6 6 0 0], v007EDFE8_0, C4<000000>;
+L_0085D058 .arith/div 12, L_007E5510, L_007E5568;
+L_0085D0E8 .part L_0085D058, 0, 6;
+    .scope S_007EA110;
+T_0 ;
+    %delay 1000, 0;
+    %load/v 8, v007E54B8_0, 1;
+    %inv 8, 1;
+    %set/v v007E54B8_0, 8, 1;
+    %jmp T_0;
+    .thread T_0;
+    .scope S_007EA110;
+T_1 ;
+    %set/v v007E5460_0, 0, 32;
+    %end;
+    .thread T_1;
+    .scope S_007EA110;
+T_2 ;
+    %wait E_007EF770;
+    %jmp T_2;
+    .thread T_2;
+    .scope S_007EA110;
+T_3 ;
+    %set/v v007E54B8_0, 0, 1;
+    %movi 8, 50, 6;
+    %set/v v007E4780_0, 8, 6;
+    %movi 14, 50, 6;
+    %set/v v007E45C8_0, 14, 6;
+    %movi 20, 50, 6;
+    %set/v v007EDFE8_0, 20, 6;
+    %vpi_call 2 28 "$dumpfile", "wave.vcd";
+    %vpi_call 2 29 "$dumpvars";
+    %delay 400000, 0;
+    %vpi_call 2 30 "$finish";
+    %end;
+    .thread T_3;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "tbss.v";

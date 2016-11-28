@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Program\MYPRJ~1\HG_Sync\FPGA\fpgadisparity\DisPrj\source\hijacker.ncd
+OUTFILE=D:\Program\MYPRJ~1\HG_Sync\FPGA\fpgadisparity\DisPrj\source\hijacker.bit
+FAMILY=Spartan6
+PART=xc6slx45-3csg324
+WORKINGDIR=D:\Program\MYPRJ~1\HG_Sync\FPGA\fpgadisparity\DisPrj\source
+LICENSE=WebPack
+USER_INFO=210861206_0_0_141

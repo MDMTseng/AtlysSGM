@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="SW_I">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="CAMA_D_I">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="CAMB_D_I">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="LED_O">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="IO_O">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="mcb3_dram_dq">
+			<Port Id="15" Dir="INOUT"/>
+			<Port Id="14" Dir="INOUT"/>
+			<Port Id="13" Dir="INOUT"/>
+			<Port Id="12" Dir="INOUT"/>
+			<Port Id="11" Dir="INOUT"/>
+			<Port Id="10" Dir="INOUT"/>
+			<Port Id="9" Dir="INOUT"/>
+			<Port Id="8" Dir="INOUT"/>
+			<Port Id="7" Dir="INOUT"/>
+			<Port Id="6" Dir="INOUT"/>
+			<Port Id="5" Dir="INOUT"/>
+			<Port Id="4" Dir="INOUT"/>
+			<Port Id="3" Dir="INOUT"/>
+			<Port Id="2" Dir="INOUT"/>
+			<Port Id="1" Dir="INOUT"/>
+			<Port Id="0" Dir="INOUT"/>
+		</Bus>
+		<Bus Id="mcb3_dram_a">
+			<Port Id="12" Dir="OUT"/>
+			<Port Id="11" Dir="OUT"/>
+			<Port Id="10" Dir="OUT"/>
+			<Port Id="9" Dir="OUT"/>
+			<Port Id="8" Dir="OUT"/>
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="mcb3_dram_ba">
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="CLK_I" Dir="IN"/>
+		<Port Id="RESET_I" Dir="IN"/>
+		<Port Id="sck" Dir="IN"/>
+		<Port Id="css" Dir="IN"/>
+		<Port Id="mosi" Dir="IN"/>
+		<Port Id="CAMA_LV_I" Dir="IN"/>
+		<Port Id="CAMA_FV_I" Dir="IN"/>
+		<Port Id="CAMB_LV_I" Dir="IN"/>
+		<Port Id="CAMB_FV_I" Dir="IN"/>
+		<Port Id="TMDS_TX_2_P" Dir="OUT"/>
+		<Port Id="TMDS_TX_2_N" Dir="OUT"/>
+		<Port Id="TMDS_TX_1_P" Dir="OUT"/>
+		<Port Id="TMDS_TX_1_N" Dir="OUT"/>
+		<Port Id="TMDS_TX_0_P" Dir="OUT"/>
+		<Port Id="TMDS_TX_0_N" Dir="OUT"/>
+		<Port Id="TMDS_TX_CLK_P" Dir="OUT"/>
+		<Port Id="TMDS_TX_CLK_N" Dir="OUT"/>
+		<Port Id="TMDS_TX_SCL" Dir="INOUT"/>
+		<Port Id="TMDS_TX_SDA" Dir="INOUT"/>
+		<Port Id="miso" Dir="OUT"/>
+		<Port Id="CAMA_SDA" Dir="INOUT"/>
+		<Port Id="CAMA_SCL" Dir="INOUT"/>
+		<Port Id="CAMA_PCLK_I" Dir="INOUT"/>
+		<Port Id="CAMA_MCLK_O" Dir="OUT"/>
+		<Port Id="CAMA_RST_O" Dir="OUT"/>
+		<Port Id="CAMA_PWDN_O" Dir="OUT"/>
+		<Port Id="CAMX_VDDEN_O" Dir="OUT"/>
+		<Port Id="CAMB_SDA" Dir="INOUT"/>
+		<Port Id="CAMB_SCL" Dir="INOUT"/>
+		<Port Id="CAMB_PCLK_I" Dir="INOUT"/>
+		<Port Id="CAMB_MCLK_O" Dir="OUT"/>
+		<Port Id="CAMB_RST_O" Dir="OUT"/>
+		<Port Id="CAMB_PWDN_O" Dir="OUT"/>
+		<Port Id="mcb3_dram_ras_n" Dir="OUT"/>
+		<Port Id="mcb3_dram_cas_n" Dir="OUT"/>
+		<Port Id="mcb3_dram_we_n" Dir="OUT"/>
+		<Port Id="mcb3_dram_odt" Dir="OUT"/>
+		<Port Id="mcb3_dram_cke" Dir="OUT"/>
+		<Port Id="mcb3_dram_dm" Dir="OUT"/>
+		<Port Id="mcb3_dram_udqs" Dir="INOUT"/>
+		<Port Id="mcb3_dram_udqs_n" Dir="INOUT"/>
+		<Port Id="mcb3_rzq" Dir="INOUT"/>
+		<Port Id="mcb3_zio" Dir="INOUT"/>
+		<Port Id="mcb3_dram_udm" Dir="OUT"/>
+		<Port Id="mcb3_dram_dqs" Dir="INOUT"/>
+		<Port Id="mcb3_dram_dqs_n" Dir="INOUT"/>
+		<Port Id="mcb3_dram_ck" Dir="OUT"/>
+		<Port Id="mcb3_dram_ck_n" Dir="OUT"/>
+		<DiffPair Pos="TMDS_TX_2_P" Neg="TMDS_TX_2_N"/>
+		<DiffPair Pos="TMDS_TX_1_P" Neg="TMDS_TX_1_N"/>
+		<DiffPair Pos="TMDS_TX_0_P" Neg="TMDS_TX_0_N"/>
+		<DiffPair Pos="TMDS_TX_CLK_P" Neg="TMDS_TX_CLK_N"/>
+		<DiffPair Pos="mcb3_dram_udqs" Neg="mcb3_dram_udqs_n"/>
+		<DiffPair Pos="mcb3_dram_dqs" Neg="mcb3_dram_dqs_n"/>
+		<DiffPair Pos="mcb3_dram_ck" Neg="mcb3_dram_ck_n"/>
+	</Ifc>
+</Interface>
+

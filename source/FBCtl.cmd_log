@@ -1,0 +1,2 @@
+vhdtdtfi -lib work iodrp_mcb_controller.vhd -lib work iodrp_controller.vhd -lib work mcb_soft_calibration.vhd -lib work mcb_soft_calibration_top.vhd -lib work mcb_raw_wrapper.vhd -lib digilent remote_sources/_/lib/digilent/LocalRst.vhd -lib work memc3_wrapper.vhd -lib work FBCtl.vhd -prj VmodCAM_Ref_VGA_Split -o FBCtl.spl -module FBCtl -template D:/Program/FPGA/xilinxISE/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 FBCtl.spl D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/FBCtl.sym 

@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Feb 11 12:43:54 2015
+# Process ID: 8832
+# Log file: D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/planAhead_run_3/planAhead.log
+# Journal file: D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

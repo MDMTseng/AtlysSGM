@@ -1,0 +1,110 @@
+#-----------------------------------------------------------
+# Vivado v2013.4 (64-bit)
+# SW Build 353583 on Mon Dec  9 17:49:19 MST 2013
+# IP Build 208076 on Mon Dec  2 12:38:17 MST 2013
+# Start of session at: Wed Sep 17 11:02:55 2014
+# Process ID: 146060
+# Log file: D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/project_1/project_1.runs/synth_1/VmodCAM_Ref.rds
+# Journal file: D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+Attempting to get a license: Implementation
+WARNING: [Common 17-301] Failed to get a license: Implementation
+WARNING: [Vivado 15-19] WARNING: No 'Implementation' license found. This message may be safely ignored if a Vivado WebPACK or device-locked license, common for board kits, will be used during implementation.
+
+Attempting to get a license: Synthesis
+WARNING: [Common 17-301] Failed to get a license: Synthesis
+Loading parts and site information from C:/Xilinx/Vivado/2013.4/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/Vivado/2013.4/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+source VmodCAM_Ref.tcl
+# set_param gui.test TreeTableDev
+# set_msg_config -id {HDL 9-1061} -limit 100000
+# set_msg_config -id {HDL 9-1654} -limit 100000
+# create_project -in_memory -part xc7k70tfbg676-1
+# set_property target_language VHDL [current_project]
+# set_param project.compositeFile.enableAutoGeneration 0
+# set_property constrs_type UCF [current_fileset -constrset]
+# read_ip d:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/project_1/project_1.srcs/sources_1/ip/dcm_recfg/dcm_recfg.xco
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2013.4/data/ip'.
+# set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
+# set_property is_locked true [get_files d:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/project_1/project_1.srcs/sources_1/ip/dcm_recfg/dcm_recfg.xco]
+# read_ip d:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/project_1/project_1.srcs/sources_1/ip/dcm_fixed/dcm_fixed.xco
+# set_msg_config -id {IP_Flow 19-2162} -severity warning -new_severity info
+# set_property is_locked true [get_files d:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/project_1/project_1.srcs/sources_1/ip/dcm_fixed/dcm_fixed.xco]
+# read_verilog {
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/ShiftReg_s.v
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/hijacker.v
+# }
+# read_vhdl {
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/iodrp_mcb_controller.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/iodrp_controller.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/mcb_soft_calibration.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/mcb_soft_calibration_top.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/mcb_raw_wrapper.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/memc3_wrapper.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/SysCon.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/FBCtl.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/CamCtl.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/VmodCAM_Ref.vhd
+# }
+# read_vhdl -library digilent {
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/Video.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/TWICtl.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/TMDSEncoder.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/SerializerN_1.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/LocalRst.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/InputSync.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/VideoTimingCtl.vhd
+#   D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/remote_sources/_/lib/digilent/DVITransmitter.vhd
+# }
+# set_property webtalk.parent_dir D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/project_1/project_1.data/wt [current_project]
+# set_property parent.project_dir D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/project_1 [current_project]
+# synth_design -top VmodCAM_Ref -part xc7k70tfbg676-1
+Command: synth_design -top VmodCAM_Ref -part xc7k70tfbg676-1
+
+Starting synthesis...
+
+INFO: [IP_Flow 19-2162] IP 'dcm_recfg' is locked. Locked reason: Property 'IS_LOCKED' is set to true by the system or user
+INFO: [IP_Flow 19-2162] IP 'dcm_fixed' is locked. Locked reason: Property 'IS_LOCKED' is set to true by the system or user
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 319.684 ; gain = 66.414
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-998] hijacker is not a entity [D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/VmodCAM_Ref.vhd:143]
+WARNING: [Synth 8-1565] actual for formal port red_i is neither a static name nor a globally static expression [D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/VmodCAM_Ref.vhd:279]
+WARNING: [Synth 8-1565] actual for formal port green_i is neither a static name nor a globally static expression [D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/VmodCAM_Ref.vhd:280]
+WARNING: [Synth 8-1565] actual for formal port blue_i is neither a static name nor a globally static expression [D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/VmodCAM_Ref.vhd:281]
+INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/VmodCAM_Ref.vhd:105]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 347.066 ; gain = 93.797
+---------------------------------------------------------------------------------
+synthesize failed
+    while executing
+"rt::run_synthesis -module $rt::top"
+    invoked from within
+"if {$rt::useElabCache == false} {
+      rt::run_synthesis -module $rt::top
+    }"
+    ("uplevel" body line 56)
+    invoked from within
+"uplevel #0 {
+    set ::env(BUILTIN_SYNTH) true
+    source $::env(HRT_TCL_PATH)/rtSynthPrep.tcl
+    set rt::cmdEcho 0
+    rt::set_parameter writeXmsg t..."
+ERROR: [Common 17-39] 'source' failed due to earlier errors.
+INFO: [Common 17-83] Releasing license: Synthesis
+5 Infos, 3 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+ERROR: [Common 17-39] 'source' failed due to earlier errors.
+
+    while executing
+"source -notrace {./.Xil/Vivado-146060-/realtime\VmodCAM_Ref.tcl}"
+    invoked from within
+"synth_design -top VmodCAM_Ref -part xc7k70tfbg676-1"
+    (file "VmodCAM_Ref.tcl" line 49)
+INFO: [Common 17-206] Exiting Vivado at Wed Sep 17 11:03:04 2014...

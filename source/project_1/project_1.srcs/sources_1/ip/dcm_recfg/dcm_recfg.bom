@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<BillOfMaterials Version="1" Minor="2">
+	<IPInstance name="dcm_recfg">
+		<FileSets>
+			<FileSet generator="flist_to_bom">
+				<File name="dcm_recfg.xco" type="xco" timestamp="Mon Sep 15 00:51:40 2014" checksum="0">
+				</File>
+				<File name="dcm_recfg_flist.txt" type="txt" timestamp="Mon Sep 15 00:51:41 2014" checksum="0">
+				</File>
+			</FileSet>
+		</FileSets>
+	</IPInstance>
+</BillOfMaterials>
+

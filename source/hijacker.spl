@@ -1,0 +1,11 @@
+[Inputs]
+clk
+=DI1[0:0]=
+=DI2[0:0]=
+[Outputs]
+=DO1[0:0]=
+=DO2[0:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel hijacker
+

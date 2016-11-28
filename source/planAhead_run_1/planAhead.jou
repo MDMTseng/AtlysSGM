@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Feb 11 12:12:30 2015
+# Process ID: 20260
+# Log file: D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/planAhead_run_1/planAhead.log
+# Journal file: D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source D:/Program/MYPRJ~1/HG_Sync/FPGA/fpgadisparity/DisPrj/source/pa.fromNetlist.tcl
+startgroup
+set_property package_pin T3 [get_ports {IO_O[0]}]
+endgroup
+startgroup
+set_property package_pin V9 [get_ports {IO_O[1]}]
+endgroup
+startgroup
+set_property package_pin T3 [get_ports {IO_O[0]}]
+endgroup
+set_property is_loc_fixed false [get_ports [list  {IO_O[0]}]]
+set_property is_loc_fixed true [get_ports [list  {IO_O[0]}]]
+set_property package_pin "" [get_ports [list  {IO_O[0]}]]
+startgroup
+set_property package_pin T3 [get_ports sck]
+endgroup
+set_property is_loc_fixed false [get_ports [list  sck]]
+set_property is_loc_fixed true [get_ports [list  sck]]
+set_property iostandard LVCMOS33 [get_ports [list sck]]
+set_property is_loc_fixed false [get_ports [list  {IO_O[1]}]]
+set_property package_pin "" [get_ports [list  {IO_O[1]}]]
+startgroup
+set_property package_pin V9 [get_ports css]
+endgroup
+set_property is_loc_fixed false [get_ports [list  css]]
+set_property is_loc_fixed false [get_ports [list  {IO_O[2]}]]
+startgroup
+set_property package_pin T9 [get_ports {IO_O[3]}]
+endgroup
+set_property package_pin "" [get_ports [list  {IO_O[2]}]]
+startgroup
+set_property package_pin R3 [get_ports mosi]
+endgroup
+set_property is_loc_fixed false [get_ports [list  mosi]]
+set_property is_loc_fixed true [get_ports [list  mosi]]
+set_property iostandard LVCMOS25 [get_ports [list mosi]]
+set_property is_loc_fixed false [get_ports [list  {IO_O[3]}]]
+set_property package_pin "" [get_ports [list  {IO_O[3]}]]
+startgroup
+set_property package_pin T9 [get_ports miso]
+endgroup
+set_property is_loc_fixed false [get_ports [list  miso]]
+set_property is_loc_fixed true [get_ports [list  css]]
+set_property is_loc_fixed true [get_ports [list  miso]]
+set_property iostandard LVCMOS33 [get_ports [list miso]]
+set_property iostandard LVCMOS33 [get_ports [list mosi]]
+set_property iostandard LVCMOS33 [get_ports [list css]]
+save_constraints

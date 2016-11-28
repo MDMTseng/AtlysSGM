@@ -1,0 +1,22 @@
+[*]
+[*] GTKWave Analyzer v3.3.48 (w)1999-2013 BSI
+[*] Mon Jan 26 08:31:14 2015
+[*]
+[dumpfile] "D:\Program\MYPRJ~1\HG_Sync\FPGA\fpgadisparity\DisPrj\source\wave.vcd"
+[dumpfile_mtime] "Mon Jan 26 08:31:07 2015"
+[dumpfile_size] 5545
+[savefile] "D:\Program\MYPRJ~1\HG_Sync\FPGA\fpgadisparity\DisPrj\source\_Save1.gtk"
+[timestart] 18809900
+[size] 944 1002
+[pos] 360 16
+*-17.000000 18987500 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] motion_est_tb.
+[sst_width] 197
+[signals_width] 264
+[sst_expanded] 1
+[sst_vpaned_height] 294
+@22
+motion_est_tb.SSS[10:0]
+motion_est_tb.SSS2[5:0]
+[pattern_trace] 1
+[pattern_trace] 0
